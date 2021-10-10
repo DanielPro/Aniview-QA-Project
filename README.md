@@ -6,17 +6,20 @@ It contains one main test case which includes API testing as well as test script
 It interacts with Vimeo's API, using a pre-defined access token that was created on a new app on Vimeo's developer site.
 
 ## Installation
-The installation is pretty straight forward and requires downloading the project files and adding them to a new folder in your katalon studio root directory.
-once its there, you can import the project and start running the test case.
+The installation is pretty easy and straight forward :
+- First, download the code files here.
+- Unzip the file to get a folder with all the code files.
+- Go to "Katalon Studio" -> "file" -> "Open Project" and import the entire folder.
+Once done, you will have the entire project open and ready to use. Hooray!
 
 ## Dependencies
 * latest version of Katalon Studio
 * Chrome browser up to date
-* Katalon's WebDrivers up to date
+* Katalon's WebDrivers up to date (you can update it via Katalon Studio -> "tools" -> "Update WebDrivers" -> "Chrome")
 
 ## Usage
-The project contains of one main script for running the tests called "TC - Script".
-you can simply run it and it will run the API testing as well as other functionalities using WebUI mostly. Please make sure to chose testing in chrome if it's not the default option already.
+The project contains of one main script for running the tests called "TC - Script" which is found in the "Test Explorer" under "Test Cases". This is the only script you will need to run via the play button on the top bar.
+you can simply run it, and it will run the API testing as well as other functionalities using WebUI mostly. Please make sure to chose testing in chrome (under the little black triangle next to the play button) if it's not the default option already.
 The script comes with a set of pre-defined variables which some can be changed (for example, if your connection is slow, set the delay to a higher value).
 Make sure not to change anything important (!) though, as it might break the test and you'll have to download the files again to recover the correct values.
 Either way, all your changes should be made in the "TC-Script" variables only.
