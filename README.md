@@ -38,7 +38,7 @@ There is only one single test case you need to run which includes all tests. You
 ## Profiles
 There is only one default profile, required for the global variable, which holds the number of views during runtime.
 
-* In the end you can follow the liks in the project, check the results, and see the variables values saved in the root directory of your project, inside a file named "output.txt".
+* In the end you can follow the links in the project, check the results, and see the variables values saved in the folder of your project, inside a file named "output.txt".
 
 
 
