@@ -1,0 +1,2 @@
+Number of likes = 62 (from test case variable numOfLikes)
+Number of views = 3,352 (from global variable numOfViews)

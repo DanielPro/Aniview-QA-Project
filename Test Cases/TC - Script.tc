@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open chrome, log in, check and save what is necessary.</description>
+   <name>TC - Script</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc1b5ae8-0a67-4b5f-b7e2-51baccccb9f6</testCaseGuid>
+   <variable>
+      <defaultValue>'www.vimeo.com/log_in'</defaultValue>
+      <description>Vimeo login address</description>
+      <id>ced2821a-dc41-493b-81d2-2ead7c582035</id>
+      <masked>false</masked>
+      <name>loginURL</name>
+   </variable>
+   <variable>
+      <defaultValue>'aniviewvimeo@gmail.com'</defaultValue>
+      <description></description>
+      <id>7897a246-6277-4ed8-b817-07acf5f5f1b6</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Aniview$13579'</defaultValue>
+      <description></description>
+      <id>c22d17ad-c8d8-403b-b6be-bf6802a8b773</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://vimeo.com/615614447'</defaultValue>
+      <description>URL of the commented video</description>
+      <id>d2eefaa6-3356-4a4f-8f5c-01f64317b203</id>
+      <masked>false</masked>
+      <name>commentedVideoURL</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://vimeo.com/450109303'</defaultValue>
+      <description>URL of another video</description>
+      <id>9e0d7f38-f8ed-4c58-b0ff-f6ee3057c00c</id>
+      <masked>false</masked>
+      <name>anotherVideoURL</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description>Number of likes on another video</description>
+      <id>41824453-c89c-4131-880c-ff6eafd43dc4</id>
+      <masked>false</masked>
+      <name>numOfLikes</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description>3 sec delay before verifying</description>
+      <id>e2fc3fab-59e3-4bd9-ab08-295d5691a54e</id>
+      <masked>false</masked>
+      <name>delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Awsome!'</defaultValue>
+      <description>Our comment on the video</description>
+      <id>4298a50c-01d2-4048-8012-e0566d951b3e</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>201</defaultValue>
+      <description>&quot;ok&quot; status code</description>
+      <id>fb3d0b68-a36a-40de-be78-c4f5e0726994</id>
+      <masked>false</masked>
+      <name>statusCode</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description>System timeout to return result</description>
+      <id>fe149097-f832-458e-803e-2d820b7a17aa</id>
+      <masked>false</masked>
+      <name>timeOut</name>
+   </variable>
+</TestCaseEntity>

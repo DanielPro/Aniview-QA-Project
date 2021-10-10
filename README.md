@@ -1,0 +1,41 @@
+# Aniview QA Project (Vimeo)
+
+## Overview
+This repository contains a complete katalon project for basic manual QA testing in Vimeo. (katalon studio can be downloaded [here](https://www.katalon.com/download/))
+It contains one main test case which includes API testing as well as test script for various functions.
+It interacts with Vimeo's API, using a pre-defined access token that was created on a new app on Vimeo's developer site.
+
+## Installation
+The installation is pretty straight forward and requires downloading the project files and adding them to a new folder in your katalon studio root directory.
+once its there, you can import the project and start running the test case.
+
+## Dependencies
+* latest version of Katalon Studio
+* Chrome browser up to date
+* Katalon's WebDrivers up to date
+
+## Usage
+The project contains of one main script for running the tests called "TC - Script".
+you can simply run it and it will run the API testing as well as other functionalities using WebUI mostly. Please make sure to chose testing in chrome if it's not the default option already.
+The script comes with a set of pre-defined variables which some can be changed (for example, if your connection is slow, set the delay to a higher value).
+Make sure not to change anything important (!) though, as it might break the test and you'll have to download the files again to recover the correct values.
+Either way, all your changes should be made in the "TC-Script" variables only.
+
+## Object Repository
+* API testing
+In the Object Repository you can see the API post call used to leave the comment on [this video](https://vimeo.com/615614447) (you can see and change the url in the variables, as well as the comment content).
+This is the first stage of the scripts.
+
+* Script Testing
+The object repository contains many other items too, used for the script testing with the WebUI. There is no need to touch those. Expect your Chrome browser to pop up and start the automation testings as the script runs. Don't close it during the run!
+
+## Test Case
+There is only one single test case you need to run which includes all tests. You can play with the variables inside it but make sure not to touch the first 3 variables, which are the login page url, and the username & password. Those are necessary for the beginning of the testing and there is no reason in changing those as they are all configured with the required authorizations as well.
+
+## Profiles
+There is only one default profile, required for the global variable, which holds the number of views during runtime.
+
+* In the end you can follow the liks in the project, check the results, and see the variables values saved in the root directory of your project, inside a file named "output.txt".
+
+
+
