@@ -18,7 +18,7 @@ Once done, you will have the entire project open and ready to use. Hooray!
 * Katalon's WebDrivers up to date (you can update it via Katalon Studio -> "tools" -> "Update WebDrivers" -> "Chrome")
 
 ## Usage
-* Before starting to use this project, make sure you are not logged in to any Vimeo account on your Chrome browser!<br/>
+* Before starting to use this project, make sure you are not logged in to any Vimeo account on your Chrome browser!<br/><br/>
 The project contains of one main script for running the tests called "TC - Script" which is found in the "Test Explorer" under "Test Cases". This is the only script you will need to run via the play button on the top bar.
 you can simply run it, and it will run the API testing as well as other functionalities using WebUI mostly. Please make sure to chose testing in chrome (under the little black triangle next to the play button) if it's not the default option already.
 The script comes with a set of pre-defined variables which some can be changed (for example, if your connection is slow, set the delay to a higher value).
